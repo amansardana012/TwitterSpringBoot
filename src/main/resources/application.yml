@@ -1,0 +1,5 @@
+#Vault-secrets // these properties needs to be in vault
+#whitelistedClients: {11212-aaaa-bbb: 'IntuitClientA', 11213-aaaa-bbb: 'IntuitClientB'}
+
+auth:
+  IntuitClientA: '.*'
